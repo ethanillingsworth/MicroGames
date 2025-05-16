@@ -7,7 +7,7 @@ Each game has it's own page and files for easy readablity. View the [games folde
 
 ## Table of Contents
 
-- [Micro Games](#micro-games)
+- [MicroGames](#microgames)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Tech Stack](#tech-stack)
@@ -32,11 +32,13 @@ Each game has it's own page and files for easy readablity. View the [games folde
 
 ## Games
 
-| Title       | Description                                               |
-| ----------- | --------------------------------------------------------- |
-| Simon       | A simple memory game with flashing colors                 |
-| Tic-Tac-Toe | The classic two-player strategy game in the browser       |
-| Wack-A-Munk | A fast-paced game inspired by Whac-A-Mole — hit the munk! |
+| Title          | Description                                                            |
+| -------------- | ---------------------------------------------------------------------- |
+| Simon          | A simple memory game with flashing colors                              |
+| Tic-Tac-Toe    | The classic two-player strategy game in the browser                    |
+| Wack-A-Munk    | A fast-paced game inspired by Whac-A-Mole — hit the munk!              |
+| Password Panic | Can you crack the code? Memorize the password and recite it for points |
+
 
 ## Contributing
 
