@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 0
+}
+
+h3 {
+    margin-top: 0;
+}
+
+button {
+    margin-top: 20px
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 50vh;
+}
+
+#board span {
+    border: 1px solid white;
+    padding: 20px;
+    aspect-ratio: 1/1;
+    height: 100%;
+    text-align: center;
+    place-content: center;
+    display: flex;
+    place-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    #board {
+        width: 80vw
+    }
+
+    #board span {
+        height: auto;
+        width: 100%;
+    }
+}

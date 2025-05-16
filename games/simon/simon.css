@@ -1,0 +1,53 @@
+:root {
+    --grass: #7ed957
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 20px
+}
+
+button {
+    margin-top: 20px
+}
+
+#grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    height: 50vh;
+    width: 50vh;
+    position: relative;
+}
+
+#circle {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border-left: 80px solid green;
+    border-top: 80px solid red;
+    border-bottom: 80px solid yellow;
+    border-right: 80px solid blue;
+    transform: rotate(45deg);
+    z-index: -100;
+    transition: all 0.1s ease-in-out;
+}
+
+#grid div:hover {
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 600px) {
+    #grid {
+        height: 80vw;
+        width: 80vw;
+    }
+}

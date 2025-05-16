@@ -1,0 +1,52 @@
+:root {
+    --grass: #7ed957
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 20px
+}
+
+button {
+    margin-top: 20px
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 40vh;
+}
+
+#board span {
+    padding: 10px;
+    background-color: var(--grass);
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+    height: 100%;
+    text-align: center;
+    place-content: center;
+    display: flex;
+    place-items: center;
+    font-size: 22.5px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.hover-effect {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #board {
+        width: 80vw
+    }
+
+    #board span {
+        height: auto;
+        width: 100%;
+    }
+}
