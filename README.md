@@ -1,4 +1,4 @@
-# Micro Games
+# MicroGames
 A collection of lightweight mini-games built for quick fun and experimentation. 
 
 Whether you're a developer looking to learn game design or just want to play around with some bite-sized experiences, this project is all about simplicity, creativity, and instant playability. 
