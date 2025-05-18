@@ -147,5 +147,8 @@ function play() {
 $("#replay").on("click", () => {
 
     $("#replay").css("display", "none")
+    sequence = []
+    score = 0
+    $("#score").text(score)
     play()
 })
