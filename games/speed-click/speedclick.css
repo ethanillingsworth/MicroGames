@@ -1,0 +1,19 @@
+#click {
+    height: 40vh;
+    width: 40vh;
+    user-select: none;
+    display: flex;
+    place-content: center;
+    text-align: center;
+    place-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    background-image: url(bg.png);
+    background-size: contain;
+    transition: scale 0.25s ease-in-out;
+}
+
+#click:hover {
+    cursor: pointer;
+    scale: 1.05
+}
