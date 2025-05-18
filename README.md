@@ -38,6 +38,8 @@ Each game has it's own page and files for easy readablity. View the [games folde
 | Tic-Tac-Toe    | The classic two-player strategy game in the browser                    |
 | Wack-A-Munk    | A fast-paced game inspired by Whac-A-Mole — hit the munk!              |
 | Password Panic | Can you crack the code? Memorize the password and recite it for points |
+| Speed Click    | Click as fast as you can to reach the highest score!                   |
+
 
 
 ## Contributing
